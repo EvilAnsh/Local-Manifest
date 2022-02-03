@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="EvilAnsh"
+          fetch="https://github.com/EvilAnsh" />
+  
+  <remote name="Jabiyeff"
+          fetch="https://github.com/Jabiyeff" />
+  
+  <!-- Trees -->
+        <project path="device/xiaomi/santoni" name="device_xiaomi_santoni" remote="EvilAnsh" revision="xtended" />
+        <project path="vendor/xiaomi" name="vendor-santoni" remote="Jabiyeff" revision="12.0" />
+        <project path="kernel/xiaomi/msm8937" name="msm-4.9-santoni-kud" remote="Jabiyeff" revision="12.0" />
+
+  <!-- Extra -->
+        <remove-project name="hardware_qcom_wlan" />
+        <project path="hardware/qcom-caf/wlan" name="android_hardware_qcom_wlan" remote="EvilAnsh" revision="12.0" />
+
+</manifest>

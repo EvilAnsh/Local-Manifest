@@ -8,7 +8,7 @@
           fetch="https://github.com/Jabiyeff" />
   
   <!-- Trees -->
-        <project path="device/xiaomi/santoni" name="device_xiaomi_santoni" remote="EvilAnsh" revision="xtended" />
+        <project path="device/xiaomi/santoni" name="device_xiaomi_santoni" remote="EvilAnsh" revision="12-staging" />
         <project path="vendor/xiaomi" name="vendor-santoni" remote="Jabiyeff" revision="12.0" />
         <project path="kernel/xiaomi/msm8937" name="msm-4.9-santoni-kud" remote="Jabiyeff" revision="12.0" />
 

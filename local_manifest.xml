@@ -8,7 +8,7 @@
           fetch="https://github.com/Jabiyeff" />
   
   <remote name="mi-msm8937" 
-          fetch="https://github.com/mi-msm8937 />
+          fetch="https://github.com/mi-msm8937" />
 
   <!-- Trees -->
         <project path="device/xiaomi/santoni" name="device_xiaomi_santoni" remote="EvilAnsh" revision="12-staging" />

@@ -6,14 +6,11 @@
   
   <remote name="Jabiyeff"
           fetch="https://github.com/Jabiyeff" />
-  
-  <remote name="mi-msm8937" 
-          fetch="https://github.com/mi-msm8937" />
 
   <!-- Trees -->
         <project path="device/xiaomi/santoni" name="device_xiaomi_santoni" remote="EvilAnsh" revision="12-staging" />
         <project path="vendor/xiaomi" name="vendor-santoni" remote="Jabiyeff" revision="12.0" />
-        <project path="kernel/xiaomi/msm8937" name="android_kernel_xiaomi_msm8937" remote="mi-msm8937" revision="a12/master" />
+        <project path="kernel/xiaomi/msm8937" name="kernel_xiaomi_msm8937" remote="EvilAnsh" revision="12" />
 
   <!-- Extra -->
         <remove-project name="platform_hardware_qcom_wlan" />

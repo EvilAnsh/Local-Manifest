@@ -8,7 +8,7 @@
           fetch="https://github.com/Jabiyeff" />
 
   <!-- Trees -->
-        <project path="device/xiaomi/santoni" name="device_xiaomi_santoni" remote="EvilAnsh" revision="sweet" />
+        <project path="device/xiaomi/santoni" name="device_xiaomi_santoni" remote="EvilAnsh" revision="cherish" />
         <project path="vendor/xiaomi" name="vendor-santoni" remote="Jabiyeff" revision="12.0" />
         <project path="kernel/xiaomi/msm8937" name="kernel_xiaomi_santoni" remote="EvilAnsh" revision="12.0" />
 

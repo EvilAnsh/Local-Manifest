@@ -13,10 +13,18 @@
   <remote name="Linos" 
           fetch="https://github.com/LineageOS" /> 
 
+  <remote name="kdrag0n" 
+          fetch="https://github.com/kdrag0n" />
+
   <!-- Trees -->
         <project path="device/xiaomi/santoni" name="device_xiaomi_santoni" remote="EvilAnsh" revision="cherish" />
         <project path="vendor/xiaomi" name="vendor-santoni" remote="Jabiyeff" revision="12.0" />
         <project path="kernel/xiaomi/msm8937" name="kernel_xiaomi_santoni" remote="EvilAnsh" revision="12.0" />
+
+  <!-- Hals -->
+        <remove-project name="hardware_qcom-caf_msm8996_audio" />
+        <remove-project name="hardware_qcom-caf_msm8996_display" />
+        <remove-project name="hardware_qcom-caf_msm8996_media" />
 
   <!-- Extra -->
         <remove-project name="android_hardware_qcom_wlan" />
@@ -25,4 +33,6 @@
         <project path="device/qcom/sepolicy-legacy-um" name="legacy-um" remote="I" revision="twelve" />
         <remove-project name="LineageOS/android_packages_resources_devicesettings" />
         <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="Linos" revision="lineage-18.1" /> 
+        <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="kdrag0n" depth="1" revision="master" />
 </manifest>
+

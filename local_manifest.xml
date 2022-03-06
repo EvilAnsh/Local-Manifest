@@ -7,6 +7,10 @@
   <remote name="Jabiyeff"
           fetch="https://github.com/Jabiyeff" />
 
+  <remote name="I"
+          fetch="https://github.com/RasyidAlKautsar" />
+
+
   <!-- Trees -->
         <project path="device/xiaomi/santoni" name="device_xiaomi_santoni" remote="EvilAnsh" revision="cherish" />
         <project path="vendor/xiaomi" name="vendor-santoni" remote="Jabiyeff" revision="12.0" />
@@ -16,6 +20,6 @@
         <remove-project name="android_hardware_qcom_wlan" />
         <project path="hardware/qcom-caf/wlan" name="android_hardware_qcom_wlan" remote="EvilAnsh" revision="12.0" />
         <remove-project name="android_device_qcom_sepolicy" />
-        <project path="device/qcom/sepolicy-legacy-um" name="android_device_qcom_sepolicy-legacy-um" remote="EvilAnsh" revision="12.0" /> 
+        <project path="device/qcom/sepolicy-legacy-um" name="legacy-um" remote="I" revision="twelve" /> 
 </manifest>
 

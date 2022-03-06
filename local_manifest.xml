@@ -30,8 +30,6 @@
         <remove-project name="android_hardware_qcom_wlan" />
         <project path="hardware/qcom-caf/wlan" name="android_hardware_qcom_wlan" remote="EvilAnsh" revision="12.0" />
         <remove-project name="android_device_qcom_sepolicy" />
-        <project path="device/qcom/sepolicy-legacy-um" name="legacy-um" remote="I" revision="twelve" />
-        <remove-project name="LineageOS/android_packages_resources_devicesettings" />
-        <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="Linos" revision="lineage-18.1" /> 
+        <project path="device/qcom/sepolicy-legacy-um" name="android_device_qcom_sepolicy-legacy-um" remote="EvilAnsh" revision="12.0" /> 
 </manifest>
 

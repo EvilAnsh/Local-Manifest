@@ -18,6 +18,6 @@
 
   <!-- Sepolicy -->
         <remove-project name="platform_device_qcom_sepolicy-legacy-um" />
-        <project path="device/qcom/sepolicy-legacy-um" name="legacy-um" remote="EvilAnsh" revision="octavi-12-caf-4.9-S-new" />
+        <project path="device/qcom/sepolicy-legacy-um" name="legacy-um" remote="EvilAnsh" revision="octavi" />
 
 </manifest>

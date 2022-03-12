@@ -33,4 +33,5 @@
         <project path="vendor/cherish" name="android_vendor_cherish" remote="EvilAnsh" revision="twelve" />
         <remove-project name="android_packages_apps_Cherish" />
         <project path="packages/apps/Cherish Settings" name="android_packages_apps_Cherish" remote="EvilAnsh" revision="twelve" />
+
 </manifest>

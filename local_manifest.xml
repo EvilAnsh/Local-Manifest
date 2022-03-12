@@ -3,17 +3,24 @@
 
   <remote name="EvilAnsh"
           fetch="https://github.com/EvilAnsh" />
+ 
+  <remote name="dvc"
+          fetch="https://github.com/ProjectArcana-Devices" />
   
-  <remote name="Jabiyeff"
-          fetch="https://github.com/Jabiyeff" />
-
+  <remote name="Linos" 
+          fetch="https://github.com/LineageOS" />
+  
   <!-- Trees -->
-        <project path="device/xiaomi/santoni" name="device_xiaomi_santoni" remote="EvilAnsh" revision="12-staging" />
-        <project path="vendor/xiaomi" name="vendor-santoni" remote="Jabiyeff" revision="12.0" />
-        <project path="kernel/xiaomi/msm8937" name="kernel_xiaomi_santoni" remote="EvilAnsh" revision="12.0" />
+        <project path="device/xiaomi/santoni" name="android_device_xiaomi_santoni" remote="dvc" revision="12-staging" />
+        <project path="vendor/xiaomi" name="vendor-santoni" remote="EvilAnsh" revision="12.0" />
+        <project path="kernel/xiaomi/msm8937" name="android_kernel_xiaomi_santoni" remote="dvc" revision="12.0" />
 
-  <!-- Extra -->
+  <!-- Wlan -->
         <remove-project name="platform_hardware_qcom_wlan" />
         <project path="hardware/qcom-caf/wlan" name="android_hardware_qcom_wlan" remote="EvilAnsh" revision="12.0" />
+
+  <!-- Extra -->
+        <remove-project name="LineageOS/android_packages_resources_devicesettings" />
+        <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="Linos" revision="lineage-18.1" />
 
 </manifest>

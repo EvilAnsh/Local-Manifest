@@ -7,9 +7,6 @@
   <remote name="Jabiyeff"
           fetch="https://github.com/Jabiyeff" />
 
-  <remote name="silicon"
-	  fetch="https://github.com/AOSP-Silicon" />
-
   <!-- Trees -->
         <project path="device/xiaomi/santoni" name="android_device_xiaomi_santoni" remote="EvilAnsh" revision="octavi" />
         <project path="vendor/xiaomi" name="vendor-santoni" remote="Jabiyeff" revision="12.0" />
@@ -17,6 +14,6 @@
 
   <!-- Sepolicy -->
        <remove-project name="platform_device_qcom_sepolicy-legacy-um" />
-       <project path="device/qcom/sepolicy-legacy-um" name="android_device_qcom_sepolicy-legacy-um" remote="silicon" revision="12" /> 
+       <project path="device/qcom/sepolicy-legacy-um" name="legacy-um" remote="EvilAnsh" revision="12" /> 
 
 </manifest>

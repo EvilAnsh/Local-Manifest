@@ -4,6 +4,9 @@
   <remote name="GhostMaster69-dev"
           fetch="https://github.com/GhostMaster69-dev" /> 
 
+  <remote name="Jabiyeff"
+          fetch="https://github.com/Jabiyeff" />
+
   <remote name="dvc"
           fetch="https://github.com/ProjectArcana-Devices" />
   
@@ -12,7 +15,7 @@
   
   <!-- Trees -->
         <project path="device/xiaomi/santoni" name="android_device_xiaomi_santoni" remote="dvc" revision="12-staging" />
-        <project path="vendor/xiaomi" name="android_vendor_xiaomi_santoni" remote="dvc" revision="12.0" />
+        <project path="vendor/xiaomi" name="vendor-santoni" remote="Jabiyeff" revision="12.0" />
         <project path="kernel/xiaomi/msm8937" name="android_kernel_xiaomi_santoni" remote="dvc" revision="12.0" />
 
   <!-- Wlan -->

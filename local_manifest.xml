@@ -7,10 +7,17 @@
   <remote name="Jabiyeff"
           fetch="https://github.com/Jabiyeff" />
 
+  <remote name="GhostMaster69-dev"
+          fetch="https://github.com/GhostMaster69-dev" /> 
+
   <!-- Trees -->
         <project path="device/xiaomi/santoni" name="android_device_xiaomi_santoni" remote="EvilAnsh" revision="octavi" />
         <project path="vendor/xiaomi" name="vendor-santoni" remote="Jabiyeff" revision="12.0" />
         <project path="kernel/xiaomi/msm8937" name="kernel_xiaomi_santoni" remote="EvilAnsh" revision="12.0" />
+
+  <!-- Wlan -->
+        <remove-project name="platform_hardware_qcom_wlan" />
+        <project path="hardware/qcom-caf/wlan" name="android_hardware_qcom_wlan" remote="GhostMaster69-dev" revision="android-12.0-caf-4.9-S" />
 
   <!-- Sepolicy -->
        <remove-project name="platform_device_qcom_sepolicy-legacy-um" />

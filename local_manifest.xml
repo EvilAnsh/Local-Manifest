@@ -19,6 +19,7 @@
   <!-- Trees -->
         <project path="device/xiaomi/santoni" name="android_device_xiaomi_santoni" remote="dvc" revision="12-S-Gapps" />
         <project path="vendor/xiaomi" name="vendor-santoni" remote="Jabiyeff" revision="12.0" />
+        <remove-project name="kernel/xiaomi/sdm845" />
         <project path="kernel/xiaomi/msm8937" name="kernel_xiaomi_santoni" remote="EvilAnsh" revision="12.0" />
 
   <!-- Wlan -->

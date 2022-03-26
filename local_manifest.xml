@@ -7,6 +7,9 @@
   <remote name="dvc" 
           fetch="https://github.com/CherishOS-Devices" />
 
+  <remote name="Jabiyeff"
+          fetch="https://github.com/Jabiyeff" />
+
   <remote name="I" 
           fetch="https://github.com/RasyidAlKautsar" />
 
@@ -15,7 +18,7 @@
 
   <!-- Trees -->
         <project path="device/xiaomi/santoni" name="device_xiaomi_santoni" remote="dvc" revision="twelve-one" />
-        <project path="vendor/xiaomi" name="vendor_xiaomi_santoni" remote="dvc" revision="12.0" />
+        <project path="vendor/xiaomi" name="vendor-santoni" remote="Jabiyeff" revision="12.0" />
         <project path="kernel/xiaomi/msm8937" name="kernel_xiaomi_santoni" remote="EvilAnsh" revision="12.0" />
 
   <!-- Wlan -->

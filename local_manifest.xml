@@ -24,6 +24,7 @@
         <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="linos" revision="lineage-18.1" />
      
   <!-- SEpolicy -->
+        <remove-project name="device_qcom_sepolicy-legacy-um" />
         <project path="device/qcom/sepolicy-legacy-um" name="legacy-um" remote="EvilAnsh" revision="spark-12-caf-4.9-S" />
 
 </manifest>

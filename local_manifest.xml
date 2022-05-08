@@ -13,7 +13,7 @@
   <!-- Trees -->
         <project path="device/xiaomi/santoni" name="device_xiaomi_santoni" remote="EvilAnsh" revision="spark" />
         <project path="vendor/xiaomi" name="vendor-santoni" remote="EvilAnsh" revision="12.0" />
-        <project path="kernel/xiaomi/msm8937" name="kernel_xiaomi_santoni" remote="EvilAnsh" revision="12.1-CAF" />
+        <project path="kernel/xiaomi/msm8937" name="kernel_xiaomi_santoni" remote="EvilAnsh" revision="12.0" />
 
   <!-- Wlan -->
         <remove-project name="android_hardware_qcom_wlan" />

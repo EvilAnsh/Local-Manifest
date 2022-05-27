@@ -1,34 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote name="GhostMaster69-dev"
-          fetch="https://github.com/GhostMaster69-dev" /> 
-
-  <remote name="Jabiyeff"
-          fetch="https://github.com/Jabiyeff" />
-
-  <remote name="dvc"
-          fetch="https://github.com/ProjectArcana-Devices" />
-  
   <remote name="EvilAnsh" 
           fetch="https://github.com/EvilAnsh" />
 
-  <remote name="LOS" 
-          fetch="https://github.com/LineageOS" />
-  
   <!-- Trees -->
-        <project path="device/xiaomi/santoni" name="android_device_xiaomi_santoni" remote="dvc" revision="12-staging" />
-        <project path="vendor/xiaomi" name="vendor-santoni" remote="Jabiyeff" revision="12.0" />
+        <project path="device/xiaomi/santoni" name="device-santoni-twrp" remote="EvilAnsh" revision="ofrp" />
         <project path="kernel/xiaomi/msm8937" name="kernel_xiaomi_santoni" remote="EvilAnsh" revision="12.0" />
 
-  <!-- Wlan -->
-        <remove-project name="android_hardware_qcom_wlan" />
-        <project path="hardware/qcom-caf/wlan" name="android_hardware_qcom_wlan" remote="GhostMaster69-dev" revision="android-12.0-caf-4.9-S" />
-
-  <!-- Extra -->
-        <remove-project name="android_packages_resources_devicesettings" />
-        <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="LOS" revision="lineage-18.1" />
-        <remove-project name="platform_device_qcom_sepolicy" />
-        <project path="device/qcom/sepolicy-legacy-um" name="legacy-um" remote="EvilAnsh" revision="aosp-12-caf-4.9-S" />
-        
 </manifest>

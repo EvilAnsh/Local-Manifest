@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote  name="mi-msm8937"
+           fetch="https://github.com/mi-msm8937"
+           revision="lineage-18.1" />
+
+  <remote  name="mi-thorium"
+           fetch="https://github.com/Mi-Thorium"
+           revision="a12/master" />
+
+  <remote  name="EvilAnsh"
+           fetch="https://github.com/EvilAnsh"
+           revision="a12/master" />
+
+  <remote  name="mi-sdm439"
+           fetch="https://github.com/mi-sdm439"
+
+ <!-- Extras -->
+  <project path="ih8sn" name="ih8sn" remote="mi-msm8937" revision="master"/>
+  <project path="packages/apps/FMRadio" name="android_packages_apps_FMRadio" remote="mi-sdm439" revision="lineage-18.1"/>
+  <project path="vendor/qcom/opensource/libfmjni" name="LineageOS/android_vendor_qcom_opensource_libfmjni" groups="qcom,pdk-qcom" revision="lineage-18.1"/>
+  <remove-project name="android_device_qcom_sepolicy" />
+  <project path="device/qcom/sepolicy-legacy-um" name="legacy-um" remote="EvilAnsh" revision="cherish" />
+
+ <!-- Replacements -->
+  <remove-project name="android_hardware_qcom_audio"/>
+  <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" remote="mi-thorium" revision="lineage-19.1-caf-msm8953"/>
+  <remove-project name="android_hardware_qcom_wlan"/>
+  <project path="hardware/qcom-caf/wlan" name="android_hardware_qcom_wlan" remote="mi-sdm439" revision="lineage-19.1-caf"/>
+
+ <!-- Common -->
+  <project path="device/xiaomi/mithorium-common" name="android_device_xiaomi_mithorium-common"     groups="device" remote="mi-thorium"/>
+  <project path="vendor/xiaomi/mithorium-common" name="proprietary_vendor_xiaomi_mithorium-common" groups="device" remote="mi-thorium"/>
+
+ <!-- Kernel for Mi8937 & Tiare -->
+  <project path="kernel/xiaomi/msm8937" name="android_kernel_xiaomi_msm8937" remote="EvilAnsh" revision="a12/master"/>
+
+ <!-- Mi8937 -->
+  <project path="device/xiaomi/Mi8937"        name="android_device_xiaomi_Mi8937"        groups="device" remote="mi-thorium"/>
+  <project path="vendor/xiaomi/Mi8937"        name="proprietary_vendor_xiaomi_Mi8937"    groups="device" remote="mi-thorium" revision="a11/master"/>
+  <project path="vendor/xiaomi/Mi8937-2"      name="proprietary_vendor_xiaomi_Mi8937-2"  groups="device" remote="mi-thorium" revision="a11/master"/>
+  <project path="device/xiaomi/land-camera"   name="android_device_xiaomi_land-camera"   groups="device" remote="mi-thorium"/>
+  <project path="device/xiaomi/mi8937-camera" name="android_device_xiaomi_mi8937-camera" groups="device" remote="mi-thorium"/>
+
+</manifest>

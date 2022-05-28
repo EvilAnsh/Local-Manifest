@@ -29,7 +29,7 @@
   <project path="hardware/qcom-caf/wlan" name="android_hardware_qcom_wlan" remote="mi-sdm439" revision="lineage-19.1-caf"/>
 
  <!-- Common -->
-  <project path="device/xiaomi/mithorium-common" name="android_device_xiaomi_mithorium-common"     groups="device" remote="mi-thorium"/>
+  <project path="device/xiaomi/mithorium-common" name="android_device_xiaomi_mithorium-common"     groups="device" remote="EvilAnsh"/>
   <project path="vendor/xiaomi/mithorium-common" name="proprietary_vendor_xiaomi_mithorium-common" groups="device" remote="mi-thorium"/>
 
  <!-- Kernel for Mi8937 & Tiare -->

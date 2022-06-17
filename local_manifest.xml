@@ -4,9 +4,6 @@
            fetch="https://github.com/EvilAnsh"
            revision="android-11.0"/>
 
- <!-- Dependency -->
-  <project path="device/qcom/twrp-common" remote="TeamWin" name="android_device_qcom_twrp-common" revision="android-11"/>
-
  <!-- Device Tree -->
   <project path="device/xiaomi/mi8937"  name="twrp_device_xiaomi_mi8937-new"  groups="device" remote="EvilAnsh"/>
 </manifest>

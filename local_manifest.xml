@@ -13,21 +13,12 @@
   <remote name="I" 
           fetch="https://github.com/RasyidAlKautsar" />
 
-  <remote name="Linos" 
-          fetch="https://github.com/LineageOS" />
-
   <!-- Trees -->
-        <project path="device/xiaomi/santoni" name="device_xiaomi_santoni" remote="dvc" revision="twelve-one" />
+        <project path="device/xiaomi/santoni" name="device_xiaomi_santoni" remote="dvc" revision="twelve-one-V" />
         <project path="vendor/xiaomi" name="vendor-santoni" remote="Jabiyeff" revision="12.0" />
         <project path="kernel/xiaomi/msm8937" name="kernel_xiaomi_santoni" remote="EvilAnsh" revision="12.0" />
 
-  <!-- Wlan -->
-        <remove-project name="android_hardware_qcom_wlan" />
-        <project path="hardware/qcom-caf/wlan" name="android_hardware_qcom_wlan" remote="EvilAnsh" revision="12.0" />
-
   <!-- Extra -->
-        <remove-project name="android_packages_resources_devicesettings" />
-        <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="Linos" revision="lineage-18.1" /> 
         <remove-project name="android_device_qcom_sepolicy" />
         <project path="device/qcom/sepolicy-legacy-um" name="legacy-um" remote="EvilAnsh" revision="cherish" />
         <remove-project name="platform/packages/apps/Dialer" />

@@ -4,12 +4,12 @@
   <remote name="EvilAnsh"
           fetch="https://github.com/EvilAnsh" />
 
-  <remote name="Lineage"              
-          fetch="https://github.com/LineageOS" />
+  <remote name="Luuvy"              
+          fetch="https://github.com/zeta96" />
 
   <!-- Trees -->
         <project path="device/xiaomi/santoni" name="android_device_xiaomi_santoni" remote="EvilAnsh" revision="12l" />
         <project path="vendor/xiaomi/santoni" name="vendor-santoni" remote="EvilAnsh" revision="12.0" />
-        <project path="kernel/xiaomi/msm8937" name="kernel_xiaomi_santoni" remote="EvilAnsh" revision="12.0" />
+        <project path="kernel/xiaomi/msm8937" name="L_soul_santoni_msm4.9" remote="Luuvy" revision="staging" />
 
 </manifest>

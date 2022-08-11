@@ -18,5 +18,7 @@
   <!-- Extra -->
         <remove-project name="android_device_qcom_sepolicy" />
         <project path="device/qcom/sepolicy-legacy-um" name="legacy-um" remote="EvilAnsh" revision="cherish" />
-     
+        <remove-project name="android_packages_apps_Launcher3" />
+        <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="EvilAnsh" revision="twelve-one" />
+
 </manifest>

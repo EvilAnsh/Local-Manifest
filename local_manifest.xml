@@ -35,5 +35,8 @@
 <!-- Clang toolchain -->
         <project path="prebuilts/clang/host/linux-x86/clang-cosmic" name="cosmic-clang" remote="gitlab-me" revision="release/15.x" clone-depth="1" />
 
+<!-- Prebuilt clang r450784d -->
+        <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="Amritorock/clang-r450784d" remote="gitlab" revision="master" clone-depth="1" />
+
 
 </manifest>

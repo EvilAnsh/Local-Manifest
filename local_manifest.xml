@@ -1,15 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  
+<!-- github-me -->	
   <remote name="EvilAnsh" 
           fetch="https://github.com/EvilAnsh" />
 
+<!-- Pixel Experience -->	
   <remote name="pixel" 
           fetch="https://github.com/PixelExperience" />
 
+<!-- RM6785 -->	
   <remote name="realme"
           fetch="https://github.com/realme-mt6785-devs" />
 
+<!-- crDroid-gitlab -->	
   <remote name="crdroid-gitlab"
           fetch="https://gitlab.com/"
           sync-c="true"
@@ -20,7 +23,10 @@
   <remote name="gitlab-me"
 	 fetch="https://gitlab.com/GhostMaster69-dev" />
 
-
+<!-- gitlab -->	
+  <remote name="gitlab"
+	 fetch="https://gitlab.com/" />
+	
 <!-- Trees -->
         <project path="device/realme/RM6785" name="android_device_realme_RM6785" remote="EvilAnsh" revision="tiramisu" />
         <project path="vendor/realme" name="proprietary_vendor_realme" remote="realme" revision="lineage-20" />

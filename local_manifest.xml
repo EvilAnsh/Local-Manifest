@@ -16,15 +16,24 @@
           sync-j="4"
           revision="refs/heads/13.0" />
 
+<!-- gitlab-me -->
+  <remote name="gitlab-me"
+	 fetch="https://gitlab.com/GhostMaster69-dev" />
 
-  <!-- Trees -->
+
+<!-- Trees -->
         <project path="device/realme/RM6785" name="android_device_realme_RM6785" remote="EvilAnsh" revision="tiramisu" />
         <project path="vendor/realme" name="proprietary_vendor_realme" remote="realme" revision="lineage-20" />
         <project path="kernel/realme/mt6785" name="android_kernel_realme_mt6785" remote="realme" revision="lineage-20" />
 
-  <!-- Extra -->
+<!-- Extra -->
         <project path="device/mediatek/sepolicy_vndr" name="device_mediatek_sepolicy_vndr" remote="pixel" revision="thirteen" />
         <project path="vendor/realme-firmware" name="proprietary_vendor_realme-firmware" remote="realme" revision="master" />
         <remove-project name="android_external_faceunlock" />
         <project path="external/faceunlock" name="crdroidandroid/android_external_faceunlock" remote="crdroid-gitlab" />
+        
+<!-- Clang toolchain -->
+        <project path="prebuilts/clang/host/linux-x86/clang-cosmic" name="cosmic-clang" remote="gitlab-me" revision="release/15.x" clone-depth="1" />
+
+
 </manifest>

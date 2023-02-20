@@ -30,7 +30,7 @@
 <!-- Trees -->
         <project path="device/realme/RM6785" name="android_device_realme_RM6785" remote="EvilAnsh" revision="tiramisu" />
         <project path="vendor/realme" name="proprietary_vendor_realme" remote="realme" revision="lineage-20" />
-        <project path="kernel/realme/mt6785" name="android_device_realme_RM6785-kernel" remote="realme" revision="lineage-20" />
+        <project path="kernel/realme/mt6785" name="android_kernel_realme_mt6785" remote="realme" revision="lineage-20" />
 
 <!-- Extra -->
         <project path="device/mediatek/sepolicy" name="android_device_mediatek_sepolicy" remote="realme" revision="lineage-20" />

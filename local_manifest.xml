@@ -4,21 +4,19 @@
   <remote name="EvilAnsh" 
           fetch="https://github.com/EvilAnsh" />
 
-  <remote name="dvc" 
-          fetch="https://github.com/CherishOS-Devices" />
+  <remote name="pixel" 
+          fetch="https://github.com/PixelExperience" />
 
-  <remote name="Jabiyeff"
-          fetch="https://github.com/Jabiyeff" />
+  <remote name="realme"
+          fetch="https://github.com/realme-mt6785-devs" />
 
   <!-- Trees -->
-        <project path="device/xiaomi/santoni" name="device_xiaomi_santoni" remote="dvc" revision="twelve-one-V" />
-        <project path="vendor/xiaomi/santoni" name="vendor-santoni" remote="Jabiyeff" revision="12.0" />
-        <project path="kernel/xiaomi/msm8937" name="kernel_xiaomi_santoni" remote="EvilAnsh" revision="12.0" />
+        <project path="device/realme/RM6785" name="android_device_realme_RM6785" remote="EvilAnsh" revision="tiramisu" />
+        <project path="vendor/realme" name="proprietary_vendor_realme" remote="realme" revision="lineage-20" />
+        <project path="kernel/realme/mt6785" name="android_kernel_realme_mt6785" remote="realme" revision="lineage-20" />
 
   <!-- Extra -->
-        <remove-project name="android_device_qcom_sepolicy" />
-        <project path="device/qcom/sepolicy-legacy-um" name="legacy-um" remote="EvilAnsh" revision="cherish" />
-        <remove-project name="android_packages_apps_Launcher3" />
-        <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="EvilAnsh" revision="twelve-one" />
+        <project path="device/mediatek/sepolicy_vndr" name="device_mediatek_sepolicy_vndr" remote="pixel" revision="thirteen" />
+        <project path="vendor/realme-firmware" name="proprietary_vendor_realme-firmware" remote="realme" revision="master" />
 
 </manifest>

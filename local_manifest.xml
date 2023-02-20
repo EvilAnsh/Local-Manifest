@@ -10,6 +10,13 @@
   <remote name="realme"
           fetch="https://github.com/realme-mt6785-devs" />
 
+  <remote name="crdroid-gitlab"
+          fetch="https://gitlab.com/"
+          sync-c="true"
+          sync-j="4"
+          revision="refs/heads/13.0" />
+
+
   <!-- Trees -->
         <project path="device/realme/RM6785" name="android_device_realme_RM6785" remote="EvilAnsh" revision="tiramisu" />
         <project path="vendor/realme" name="proprietary_vendor_realme" remote="realme" revision="lineage-20" />
@@ -18,5 +25,6 @@
   <!-- Extra -->
         <project path="device/mediatek/sepolicy_vndr" name="device_mediatek_sepolicy_vndr" remote="pixel" revision="thirteen" />
         <project path="vendor/realme-firmware" name="proprietary_vendor_realme-firmware" remote="realme" revision="master" />
-
+        <remove-project name="android_external_faceunlock" />
+        <project path="external/faceunlock" name="crdroidandroid/android_external_faceunlock" remote="crdroid-gitlab" />
 </manifest>

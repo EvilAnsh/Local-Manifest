@@ -19,10 +19,6 @@
           sync-j="4"
           revision="refs/heads/13.0" />
 
-<!-- gitlab-me -->
-  <remote name="gitlab-me"
-	 fetch="https://gitlab.com/GhostMaster69-dev" />
-
 <!-- gitlab -->	
   <remote name="gitlab"
 	 fetch="https://gitlab.com/" />
@@ -39,10 +35,6 @@
         <project path="external/faceunlock" name="crdroidandroid/android_external_faceunlock" remote="crdroid-gitlab" />
         
 <!-- Clang toolchain -->
-        <project path="prebuilts/clang/host/linux-x86/clang-cosmic" name="cosmic-clang" remote="gitlab-me" revision="release/15.x" clone-depth="1" />
-
-<!-- Prebuilt clang r450784d -->
-        <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="Amritorock/clang-r450784d" remote="gitlab" revision="master" clone-depth="1" />
-
+        <project path="prebuilts/clang/host/linux-x86/clang-r475365b" name="yaosp/prebuilts_clang_host_linux-x86_clang-r475365b" remote="gitlab" revision="master" />
 
 </manifest>

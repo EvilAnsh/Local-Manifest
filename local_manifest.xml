@@ -12,12 +12,15 @@
   <remote name="N.E.O.L.I.T"
           fetch="https://github.com/sarthakroy2002" />
 
+<!-- Pixel Experience -->	
+   <remote name="pixel"
+          fetch="https://github.com/PixelExperience" />
 <!-- RM6785 Trees -->	
         <project path="device/realme/RM6785" name="android_device_realme_RM6785" remote="EvilAnsh" revision="tiramisu" />
         <project path="vendor/realme" name="proprietary_vendor_realme" remote="EvilAnsh" revision="lineage-20" />
         <project path="kernel/realme/mt6785" name="kernel_realme_wasabi" remote="N.E.O.L.I.T" revision="R" />
 
 <!-- Extra -->
-        <project path="device/mediatek/sepolicy" name="android_device_mediatek_sepolicy" remote="realme" revision="lineage-20" />
+        <project path="device/mediatek/sepolicy_vendor" name="device_mediatek_sepolicy_vndr" remote="pixel" revision="thirteen" />
         <project path="vendor/realme-firmware" name="proprietary_vendor_realme-firmware" remote="realme" revision="master" />
 </manifest>

@@ -16,7 +16,7 @@
    <remote name="pixel"
           fetch="https://github.com/PixelExperience" />
 <!-- RM6785 Trees -->	
-        <project path="device/realme/RM6785" name="android_device_realme_RM6785" remote="EvilAnsh" revision="tiramisu" />
+        <project path="device/realme/RM6785" name="android_device_realme_RM6785" remote="EvilAnsh" revision="thirteen" />
         <project path="vendor/realme" name="proprietary_vendor_realme" remote="EvilAnsh" revision="lineage-20" />
         <project path="kernel/realme/mt6785" name="kernel_realme_wasabi" remote="N.E.O.L.I.T" revision="R" />
 

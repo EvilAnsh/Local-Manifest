@@ -21,6 +21,6 @@
         <project path="kernel/realme/mt6785" name="kernel_realme_wasabi" remote="N.E.O.L.I.T" revision="R" />
 
 <!-- Extra -->
-        <project path="device/mediatek/sepolicy_vendor" name="device_mediatek_sepolicy_vndr" remote="pixel" revision="thirteen" />
+        <project path="device/mediatek/sepolicy_vndr" name="device_mediatek_sepolicy_vndr" remote="pixel" revision="thirteen" />
         <project path="vendor/realme-firmware" name="proprietary_vendor_realme-firmware" remote="realme" revision="master" />
 </manifest>

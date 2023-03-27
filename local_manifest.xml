@@ -23,7 +23,7 @@
 <!-- RM6785 Trees -->	
         <project path="device/realme/RM6785" name="android_device_realme_RM6785" remote="EvilAnsh" revision="thirteen" />
         <project path="vendor/realme" name="proprietary_vendor_realme" remote="realme" revision="pe-thirteen" />
-        <project path="kernel/realme/mt6785" name="kernel_realme_RM6785" remote="EvilAnsh" revision="full-lto" />
+        <project path="kernel/realme/mt6785" name="kernel_realme_RM6785" remote="EvilAnsh" revision="R" />
 
 <!-- Extra -->
         <project path="device/mediatek/sepolicy_vndr" name="device_mediatek_sepolicy_vndr" remote="pixel" revision="thirteen" />

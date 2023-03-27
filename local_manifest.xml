@@ -23,12 +23,15 @@
 <!-- RM6785 Trees -->	
         <project path="device/realme/RM6785" name="android_device_realme_RM6785" remote="EvilAnsh" revision="thirteen" />
         <project path="vendor/realme" name="proprietary_vendor_realme" remote="realme" revision="pe-thirteen" />
-        <project path="kernel/realme/mt6785" name="kernel_realme_RM6785" remote="EvilAnsh" revision="R" />
+        <project path="kernel/realme/mt6785" name="android-kernel_Azrael_RM6785" remote="Azrael" revision="dragon-lto" />
 
 <!-- Extra -->
         <project path="device/mediatek/sepolicy_vndr" name="device_mediatek_sepolicy_vndr" remote="pixel" revision="thirteen" />
         <project path="vendor/realme-firmware" name="proprietary_vendor_realme-firmware" remote="realme" revision="master" />
-  
+ 
+<!-- clang azure -->
+ <project path="prebuilts/clang/host/linux-x86/clang-azure" name="Panchajanya1999/azure-clang" remote="gitlab" revision="main" clone-depth="1" />	
+	
  <!-- Prebuilt clang r450784d -->
  <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="Amritorock/clang-r450784d" remote="gitlab" revision="master" clone-depth="1" />
 

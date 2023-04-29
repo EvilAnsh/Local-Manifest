@@ -24,7 +24,10 @@
 <!-- Extra -->
         <project path="device/mediatek/sepolicy_vndr" name="device_mediatek_sepolicy_vndr" remote="pixel" revision="thirteen" />
         <project path="vendor/realme-firmware" name="proprietary_vendor_realme-firmware" remote="realme" revision="master" />
-  
+
+<!-- Clang toolchain -->
+ <project path="prebuilts/clang/host/linux-x86/clang-cosmic" name="GhostMaster69-dev/cosmic-clang" remote="gitlab" revision="master" clone-depth="1" />
+
 <!-- Prebuilt clang r450784d -->
  <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="Amritorock/clang-r450784d" remote="gitlab" revision="master" clone-depth="1" />	
 	

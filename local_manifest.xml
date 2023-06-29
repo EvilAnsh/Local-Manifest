@@ -7,19 +7,15 @@
 <!-- RM6785 -->	
   <remote name="realme"
           fetch="https://github.com/realme-mt6785-devs" />
-
-<!-- Pixel Experience -->	
-  <remote name="pixel"
-          fetch="https://github.com/PixelExperience" />
-
+	
 <!-- gitlab -->
-  <remote name="gitlab"
+  <remote name="gitlab-me"
 	        fetch="https://gitlab.com/" />
   
 <!-- RM6785 Trees -->	
-        <project path="device/realme/RM6785" name="android_device_realme_RM6785" remote="EvilAnsh" revision="tiramisu" />
-        <project path="vendor/realme/RM6785" name="proprietary_vendor_realme" remote="EvilAnsh" revision="tiramisu" />
-        <project path="kernel/realme/mt6785" name="kernel_realme_RM6785" remote="EvilAnsh" revision="pixel" />
+        <project path="device/realme/RM6785" name="android_device_realme_RM6785" remote="EvilAnsh" revision="banana" />
+        <project path="vendor/realme/RM6785" name="proprietary_vendor_realme" remote="realme" revision="lineage-20" />
+        <project path="kernel/realme/mt6785" name="kernel_realme_RM6785" remote="EvilAnsh" revision="R" />
 
 <!-- Extra -->
         <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="realme" revision="lineage-20" />
@@ -27,9 +23,9 @@
         <project path="hardware/mediatek" name="android_hardware_mediatek" remote="realme" revision="lineage-20" />
 
 <!-- Clang toolchain -->
- <project path="prebuilts/clang/host/linux-x86/clang-cosmic" name="GhostMaster69-dev/cosmic-clang" remote="gitlab" revision="master" clone-depth="1" />
+ <project path="prebuilts/clang/host/linux-x86/clang-cosmic" name="GhostMaster69-dev/cosmic-clang" remote="gitlab-me" revision="master" clone-depth="1" />
 
 <!-- Prebuilt clang r450784d -->
- <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="Amritorock/clang-r450784d" remote="gitlab" revision="master" clone-depth="1" />	
+ <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="Amritorock/clang-r450784d" remote="gitlab-me" revision="master" clone-depth="1" />	
 	
 </manifest>

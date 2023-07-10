@@ -13,7 +13,7 @@
 	        fetch="https://gitlab.com/" />
   
 <!-- RM6785 Trees -->	
-        <project path="device/realme/RM6785" name="android_device_realme_RM6785" remote="EvilAnsh" revision="banana" />
+        <project path="device/realme/RM6785" name="android_device_realme_RM6785" remote="EvilAnsh" revision="rising" />
         <project path="vendor/realme" name="proprietary_vendor_realme" remote="realme" revision="lineage-20" />
         <project path="kernel/realme/mt6785" name="kernel_realme_RM6785" remote="EvilAnsh" revision="R" />
 

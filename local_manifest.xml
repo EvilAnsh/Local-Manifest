@@ -18,7 +18,6 @@
         <project path="kernel/realme/mt6785" name="kernel_realme_RM6785" remote="EvilAnsh" revision="R" />
 
 <!-- Extra -->
-        <remove-project name="android_device_mediatek_sepolicy_vndr" />
         <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="realme" revision="lineage-20" />
         <project path="vendor/realme-firmware" name="proprietary_vendor_realme-firmware" remote="realme" revision="master" />
         <project path="hardware/mediatek" name="android_hardware_mediatek" remote="realme" revision="lineage-20" />

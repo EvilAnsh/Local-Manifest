@@ -12,7 +12,8 @@
   <remote name="gitlab-me"
 	        fetch="https://gitlab.com/" />
 
-<remote name="Abz"
+<!-- AbzRaider -->	
+  <remote name="Abz"
 	        fetch="https://github.com/AbzRaider" />
 	
 <!-- RM6785 Trees -->	

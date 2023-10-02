@@ -26,7 +26,7 @@
 	
 <!-- RM6785 Trees -->	
         <project path="device/realme/RM6785" name="android_device_realme_RM6785" remote="org" revision="tiramisu" />
-        <project path="vendor/realme/RM6785" name="proprietary_vendor_realme" remote="EvilAnsh" revision="tiramisu" />
+        <project path="vendor/realme" name="proprietary_vendor_realme" remote="EvilAnsh" revision="tiramisu" />
         <project path="kernel/realme/mt6785" name="kernel_realme_RM6785" remote="EvilAnsh" revision="lineage-20" />
 
 <!-- Extra -->

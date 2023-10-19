@@ -25,7 +25,7 @@
 	        fetch="https://github.com/AbzRaider" />
 	
 <!-- RM6785 Trees -->	
-        <project path="device/realme/RM6785" name="android_device_realme_RM6785" remote="EvilAnsh" revision="alexa" />
+        <project path="device/realme/RM6785" name="android_device_realme_RM6785" remote="EvilAnsh" revision="UNO" />
         <project path="vendor/realme" name="proprietary_vendor_realme" remote="EvilAnsh" revision="tiramisu" />
         <project path="kernel/realme/mt6785" name="kernel_realme_RM6785" remote="EvilAnsh" revision="lineage-20" />
 

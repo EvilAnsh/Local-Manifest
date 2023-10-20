@@ -25,14 +25,14 @@
 	        fetch="https://github.com/AbzRaider" />
 	
 <!-- RM6785 Trees -->	
-        <project path="device/realme/RM6785" name="android_device_realme_RM6785" remote="org" revision="tiramisu" />
-        <project path="vendor/realme" name="proprietary_vendor_realme" remote="EvilAnsh" revision="tiramisu" />
+        <project path="device/realme/RM6785" name="android_device_realme_RM6785" remote="org" revision="udc" />
+        <project path="vendor/realme" name="proprietary_vendor_realme" remote="EvilAnsh" revision="udc" />
         <project path="kernel/realme/mt6785" name="kernel_realme_RM6785" remote="EvilAnsh" revision="lineage-20" />
 
 <!-- Extra -->
-        <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="realme" revision="lineage-20" />
+        <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="realme" revision="lineage-21" />
         <project path="vendor/realme-firmware" name="proprietary_vendor_realme-firmware" remote="realme" revision="master" />
-        <project path="hardware/mediatek" name="android_hardware_mediatek" remote="realme" revision="lineage-20" />
+        <project path="hardware/mediatek" name="android_hardware_mediatek" remote="realme" revision="lineage-21" />
         
 <!-- Clang toolchain -->
  <project path="prebuilts/clang/host/linux-x86/clang-cosmic" name="GhostMaster69-dev/cosmic-clang" remote="gitlab" revision="master" clone-depth="1" />

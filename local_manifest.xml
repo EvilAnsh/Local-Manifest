@@ -1,30 +1,17 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-<!-- github-me -->	
-  <remote name="EvilAnsh" 
-          fetch="https://github.com/EvilAnsh" />
+  <!-- Remotes -->
+  <remote name="realme" fetch="https://github.com/realme-mt6785-devs" />
+  <remote name="EvilAnsh" fetch="https://github.com/EvilAnsh" />
+  <remote name="gitlab" fetch="https://gitlab.com/" />
 
-<!-- RM6785 -->	
-  <remote name="realme"
-          fetch="https://github.com/realme-mt6785-devs" />
+  <!-- project path="external/tinyxml" name="platform/external/tinyxml" remote="aosp" revision="refs/tags/android-11.0.0_r46" /-->
+  <project path="device/realme/RM6785" name="android_device_realme_RM6785" revision="udc" remote="EvilAnsh" />
+  <project path="kernel/realme/mt6785" name="kernel_realme_RM6785" revision="lineage-20" remote="EvilAnsh" />
+  <project path="vendor/realme" name="proprietary_vendor_realme" revision="udc" remote="EvilAnsh" />
+  <project path="vendor/realme-firmware" name="proprietary_vendor_realme-firmware" revision="master" remote="realme" />
+  <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" revision="lineage-21" remote="realme" />
+  <project path="hardware/mediatek" name="android_hardware_mediatek" revision="lineage-21" remote="realme" />
+  <project path="prebuilts/clang/host/linux-x86/clang-cosmic" name="GhostMaster69-dev/cosmic-clang" revision="master" remote="gitlab" clone-depth="1" />
+  <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="Amritorock/clang-r450784d" revision="master" remote="gitlab" clone-depth="1" />     
 
-<!-- gitlab -->
-  <remote name="gitlab"
-	        fetch="https://gitlab.com/" />
-
-<!-- RM6785 Trees -->	
-        <project path="device/realme/RM6785" name="android_device_realme_RM6785" remote="EvilAnsh" revision="udc" />
-        <project path="vendor/realme" name="proprietary_vendor_realme" remote="EvilAnsh" revision="udc" />
-        <project path="kernel/realme/mt6785" name="kernel_realme_RM6785" remote="EvilAnsh" revision="lineage-20" />
-
-<!-- Extra -->
-        <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="realme" revision="lineage-21" />
-        <project path="vendor/realme-firmware" name="proprietary_vendor_realme-firmware" remote="realme" revision="master" />
-        <project path="hardware/mediatek" name="android_hardware_mediatek" remote="realme" revision="lineage-21" />
-        
-<!-- Clang toolchain -->
-        <project path="prebuilts/clang/host/linux-x86/clang-cosmic" name="GhostMaster69-dev/cosmic-clang" remote="gitlab" revision="master" clone-depth="1" />
-
-<!-- Prebuilt clang r450784d -->
-        <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="Amritorock/clang-r450784d" remote="gitlab" revision="master" clone-depth="1" />	
 </manifest>

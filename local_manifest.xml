@@ -10,6 +10,7 @@
   <project path="kernel/realme/mt6785" name="android_kernel_realme_mt6785" revision="lineage-plus" remote="Abz" />
   <project path="vendor/realme/RM6785" name="proprietary_vendor_realme" revision="leaf-3.0" remote="realme" />
   <project path="vendor/realme-firmware" name="proprietary_vendor_realme-firmware" revision="master" remote="realme" />
+  <remove-project name="android_device_mediatek_sepolicy_vndr " />
   <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" revision="lineage-21" remote="realme" />
   <project path="hardware/mediatek" name="android_hardware_mediatek" revision="lineage-21" remote="realme" />
   <project path="prebuilts/clang/host/linux-x86/clang-cosmic" name="GhostMaster69-dev/cosmic-clang" revision="master" remote="gitlab-me" clone-depth="1" />

@@ -6,7 +6,7 @@
   <remote name="Abz" fetch="https://github.com/AbzRaider" />
   
   <!-- project path="external/tinyxml" name="platform/external/tinyxml" remote="aosp" revision="refs/tags/android-11.0.0_r46" /-->
-  <project path="device/realme/RM6785" name="android_device_realme_RM6785" revision="udc" remote="EvilAnsh" />
+  <project path="device/realme/RM6785" name="android_device_realme_RM6785" revision="banana" remote="EvilAnsh" />
   <project path="kernel/realme/mt6785" name="android_kernel_realme_mt6785" revision="lineage-plus" remote="Abz" />
   <project path="vendor/realme/RM6785" name="proprietary_vendor_realme" revision="leaf-3.0" remote="realme" />
   <project path="vendor/realme-firmware" name="proprietary_vendor_realme-firmware" revision="master" remote="realme" />

@@ -6,7 +6,7 @@
   <remote name="Abz" fetch="https://github.com/AbzRaider" />
   <remote name="techy" fetch="https://github.com/techyminati" />
   <remote name="nashc" fetch="https://github.com/nashc-dev" />
-  <remote name="lineage" fetch="https://github.com/LineageOS" />
+  <remote name="LineageOS" fetch="https://github.com/LineageOS" />
   
   <!-- project path="external/tinyxml" name="platform/external/tinyxml" remote="aosp" revision="refs/tags/android-11.0.0_r46" /-->
   <project path="device/realme/salaa" name="android_device_realme_salaa" revision="13" remote="EvilAnsh" />

@@ -9,12 +9,12 @@
   <remote name="LineageOS" fetch="https://github.com/LineageOS" />
   
   <!-- project path="external/tinyxml" name="platform/external/tinyxml" remote="aosp" revision="refs/tags/android-11.0.0_r46" /-->
-  <project path="device/realme/salaa" name="android_device_realme_salaa" revision="13" remote="EvilAnsh" />
+  <project path="device/realme/salaa" name="android_device_realme_salaa" revision="thirteen" remote="EvilAnsh" />
   <project path="kernel/realme/mt6785" name="android_kernel_oplus_realme7" revision="aosp-13" remote="Abz" />
   <project path="vendor/realme/salaa" name="android_vendor_realme_salaa" revision="lineage-20" remote="realme" />
-  <project path="hardware/mediatek" name="android_hardware_mediatek" revision="lineage-20" remote="lineage" />
+  <project path="hardware/mediatek" name="android_hardware_mediatek" revision="lineage-20-salaa" remote="realme" />
   <project path="hardware/oplus" name="android_hardware_oplus" revision="lineage-20" remote="lineage" />
-  <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" revision="lineage-20" remote="nashc" />
+  <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" revision="lineage-20" remote="realme" />
   <project path="prebuilts/clang/host/linux-x86/clang-r383902" name="android_prebuilts_clang_host_linux-x86_clang-6443078" revision="11.0.1" remote="techy" clone-depth="1" />     
   <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="Amritorock/clang-r450784d" revision="master" remote="gitlab-me" clone-depth="1" />     
 

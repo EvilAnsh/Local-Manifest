@@ -16,5 +16,7 @@
   <project path="hardware/oplus" name="android_hardware_oplus" revision="lineage-20" remote="LineageOS" />
   <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" revision="lineage-21" remote="PQ" />
   <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="Amritorock/clang-r450784d" revision="master" remote="gitlab-me" clone-depth="1" />     
+  <project path="prebuilts/clang/host/linux-x86/clang-cosmic" name="GhostMaster69-dev/cosmic-clang" remote="gitlab-me" revision="master" clone-depth="1" />
+
 
 </manifest>

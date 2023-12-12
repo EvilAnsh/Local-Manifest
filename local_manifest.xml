@@ -7,7 +7,7 @@
   
   <!-- project path="external/tinyxml" name="platform/external/tinyxml" remote="aosp" revision="refs/tags/android-11.0.0_r46" /-->
   <project path="device/realme/RM6785" name="android_device_realme_RM6785" revision="banana" remote="EvilAnsh" />
-  <project path="kernel/realme/mt6785" name="android_kernel_realme_mt6785" revision="lineage-plus" remote="Abz" />
+  <project path="kernel/realme/mt6785" name="android_kernel_realme_mt6785" revision="lineage-21" remote="realme" />
   <project path="vendor/realme/RM6785-common" name="proprietary_vendor_realme_RM6785-common" revision="lineage-21" remote="realme" />
   <project path="vendor/realme-firmware" name="proprietary_vendor_realme-firmware" revision="master" remote="realme" />
   <remove-project name="android_device_mediatek_sepolicy_vndr" />

@@ -12,6 +12,7 @@
   <project path="vendor/realme-firmware" name="proprietary_vendor_realme-firmware" revision="master" remote="realme" />
   <remove-project name="device_mediatek_sepolicy_vndr" />
   <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" revision="lineage-20" remote="realme" />
+  <remove-project name="hardware_mediatek" />
   <project path="hardware/mediatek" name="android_hardware_mediatek" revision="lineage-20" remote="realme" />
   <project path="prebuilts/clang/host/linux-x86/clang-cosmic" name="GhostMaster69-dev/cosmic-clang" revision="master" remote="gitlab-me" clone-depth="1" />
   <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="Amritorock/clang-r450784d" revision="master" remote="gitlab-me" clone-depth="1" />     

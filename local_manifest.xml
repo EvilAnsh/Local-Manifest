@@ -12,14 +12,14 @@
   <remote name="gitlab-me"
 	        fetch="https://gitlab.com/" />
 
-<!-- AbzRaider -->	
-  <remote name="Abz"
-	        fetch="https://github.com/AbzRaider" />
+<!-- psionicprjkt -->	
+  <remote name="psion"
+	        fetch="https://github.com/psionicprjkt" />
 	
 <!-- RM6785 Trees -->	
-        <project path="device/realme/RM6785" name="android_device_realme_RM6785" remote="EvilAnsh" revision="udc" />
-        <project path="vendor/realme/RM6785-common" name="proprietary_vendor_realme_RM6785-common" remote="realme" revision="lineage-21" />
-        <project path="kernel/realme/mt6785" name="android_kernel_realme_mt6785" remote="realme" revision="lineage-21" />
+        <project path="device/realme/RM6785" name="android_device_realme_RM6785" remote="EvilAnsh" revision="rising" />
+        <project path="vendor/realme/RM6785-common" name="proprietary_vendor_realme_RM6785-common" remote="EvilAnsh" revision="lineage-21" />
+        <project path="kernel/realme/mt6785" name="android_kernel_realme_mt6785" remote="psion" revision="R-based-nonksu" />
 
 <!-- Extra -->
         <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="realme" revision="lineage-21" />

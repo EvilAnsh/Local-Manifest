@@ -26,8 +26,8 @@
         <project path="vendor/realme-firmware" name="proprietary_vendor_realme-firmware" remote="realme" revision="master" />
         <project path="hardware/mediatek" name="android_hardware_mediatek" remote="realme" revision="lineage-21" />
 
-<!-- Cosmic Clang -->
-        <project path="prebuilts/clang/host/linux-x86/clang-cosmic" name="GhostMaster69-dev/cosmic-clang" revision="master" remote="gitlab-me" clone-depth="1" />	
+<!-- Proton Clang-16 -->
+	<project path="prebuilts/clang/host/linux-x86/proton-clang" name="LeCmnGend/proton-clang" remote="gitlab-me" revision="clang-16" clone-depth="1" />	
 <!-- Prebuilt clang r450784d -->
         <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="Amritorock/clang-r450784d" remote="gitlab-me" revision="master" clone-depth="1" />	
 	

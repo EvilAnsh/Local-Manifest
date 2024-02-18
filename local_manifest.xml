@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 <!-- github-me -->	
-  <remote name="EvilAnsh" 
-          fetch="https://github.com/EvilAnsh" />
+  <remote name="rising" 
+          fetch="https://github.com/RisingOSS-Devices" />
 
 <!-- RM6785 -->	
   <remote name="realme"
@@ -12,14 +12,14 @@
   <remote name="gitlab-me"
 	        fetch="https://gitlab.com/" />
 
-<!-- psionicprjkt -->	
-  <remote name="psion"
-	        fetch="https://github.com/psionicprjkt" />
+<!-- PixelOS-Devices -->	
+  <remote name="pos"
+	        fetch="https://github.com/PixelOS-Devices" />
 	
 <!-- RM6785 Trees -->	
-        <project path="device/realme/RM6785" name="android_device_realme_RM6785" remote="EvilAnsh" revision="rising" />
-        <project path="vendor/realme/RM6785-common" name="proprietary_vendor_realme_RM6785-common" remote="EvilAnsh" revision="lineage-21" />
-        <project path="kernel/realme/mt6785" name="android_kernel_realme_mt6785" remote="EvilAnsh" revision="R-based-nonksu" />
+        <project path="device/realme/RM6785" name="android_device_realme_RM6785" remote="rising" revision="fourteen" />
+        <project path="vendor/realme/RM6785-common" name="proprietary_vendor_realme_RM6785-common" remote="realme" revision="lineage-21" />
+        <project path="kernel/realme/mt6785" name="android_kernel_realme_mt6785" remote="pos" revision="fourteen" />
 
 <!-- Extra -->
         <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="realme" revision="lineage-21" />

@@ -1,20 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-<!-- YAAP -->	
-  <remote name="yaap"
-	        fetch="https://github.com/yaap" />
-	
-<!-- salaa Trees -->	
-        <project path="device/realme/nemo" name="EvilAnsh/android_device_realme_nemo" remote="github-non-los" revision="bka" />
-        <project path="vendor/realme/nemo" name="crdroidandroid/proprietary_vendor_realme_nemo" remote="github-non-los" revision="16.0" />
-        <project path="kernel/realme/nemo" name="crdroidandroid/android_kernel_realme_nemo" remote="github-non-los" revision="16.0" />
+<!-- nemo Trees -->	
+        <project path="device/realme/nemo" name="device_realme_nemo" remote="evo-devices" revision="bka" />
+        <project path="vendor/realme/nemo" name="vendor_realme_nemo" remote="evo-devices" revision="bka" />
+        <project path="kernel/realme/nemo" name="kernel_realme_nemo" remote="evo-devices" revision="bka" />
 
 <!-- Extras -->
 	    <project path="vendor/evolution-priv/keys" name="vendor_evolution-priv_keys-template" remote="evo" revision="master" />
-	    <project path="hardware/dolby" name="hardware_dolby" remote="evo-devices" />
-        <project path="device/mediatek/sepolicy_vndr" name="crdroidandroid/android_device_mediatek_sepolicy_vndr" remote="github-non-los" revision="16.0" />
-        <project path="hardware/mediatek" name="crdroidandroid/android_hardware_mediatek" remote="github-non-los" revision="15.0" />
-        <remove-project path="packages/apps/FMRadio" />
-    	<project path="packages/apps/FMRadio" name="packages_apps_FMRadio" remote="yaap" revision="sixteen" />
+        <project path="device/mediatek/sepolicy_vndr" name="device_mediatek_sepolicy_vndr" remote="evo-devices" revision="bka" />
+        <project path="hardware/dolby" name="hardware_dolby" remote="evo-devices" revision="bka" />
+        <project path="hardware/mediatek" name="hardware_mediatek" remote="evo-devices" revision="bka" />
+	    <project path="vendor/qcom/opensource/commonsys-intf/bluetooth" name="LineageOS/android_vendor_qcom_opensource_bluetooth-commonsys-intf" remote="github-non-los" revision="lineage-22.2" />
 </manifest>

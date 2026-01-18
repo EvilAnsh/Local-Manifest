@@ -11,5 +11,4 @@
         <project path="device/mediatek/sepolicy_vndr" name="device_mediatek_sepolicy_vndr" remote="evo-devices" revision="bka" />
         <project path="hardware/dolby" name="hardware_dolby" remote="evo-devices" revision="bka" />
         <project path="hardware/mediatek" name="hardware_mediatek" remote="evo-devices" revision="bka" />
-	    <project path="vendor/qcom/opensource/commonsys-intf/bluetooth" name="LineageOS/android_vendor_qcom_opensource_bluetooth-commonsys-intf" remote="github-non-los" revision="lineage-22.2" />
 </manifest>

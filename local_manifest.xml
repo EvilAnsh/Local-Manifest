@@ -1,20 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-<!-- YAAP -->	
-  <remote name="yaap"
-	        fetch="https://github.com/yaap" />
-	
 <!-- salaa Trees -->	
-        <project path="device/realme/salaa" name="EvilAnsh/android_device_realme_salaa" remote="github-non-los" revision="bka" />
-        <project path="vendor/realme/salaa" name="crdroidandroid/proprietary_vendor_realme_salaa" remote="github-non-los" revision="16.0" />
-        <project path="kernel/realme/salaa" name="crdroidandroid/android_kernel_realme_salaa" remote="github-non-los" revision="16.0" />
+    <project path="device/realme/salaa" name="device_realme_salaa" remote="evo-devices" revision="bka" />
+    <project path="vendor/realme/salaa" name="vendor_realme_salaa" remote="evo-devices" revision="bka" />
+    <project path="kernel/realme/salaa" name="kernel_realme_salaa" remote="evo-devices" revision="bka" />
 
 <!-- Extras -->
-	    <project path="vendor/evolution-priv/keys" name="vendor_evolution-priv_keys-template" remote="evo" revision="master" />
-        <project path="device/mediatek/sepolicy_vndr" name="crdroidandroid/android_device_mediatek_sepolicy_vndr" remote="github-non-los" revision="16.0" />
-        <project path="hardware/oplus" name="crdroidandroid/android_hardware_oplus" remote="github-non-los" revision="16.0" />
-        <project path="hardware/mediatek" name="crdroidandroid/android_hardware_mediatek" remote="github-non-los" revision="16.0" />
-        <remove-project path="packages/apps/FMRadio" />
-    	<project path="packages/apps/FMRadio" name="packages_apps_FMRadio" remote="yaap" revision="sixteen" />
+	<project path="vendor/evolution-priv/keys" name="vendor_evolution-priv_keys-template" remote="evo" revision="master" />
+    <project path="device/mediatek/sepolicy_vndr" name="device_mediatek_sepolicy_vndr" remote="evo-devices" revision="bka" />
+	<project path="hardware/oplus" name="hardware_oplus" remote="evo-devices" revision="bka" />
+    <project path="hardware/mediatek" name="hardware_mediatek" remote="evo-devices" revision="bka" />
+	<project path="packages/apps/ViPER4AndroidFX" name="packages_apps_ViPER4AndroidFX" remote="evo-devices" revision="bka" />
 </manifest>

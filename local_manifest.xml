@@ -9,6 +9,7 @@
 <!-- Extras -->
 	<project path="vendor/evolution-priv/keys" name="vendor_evolution-priv_keys-template" remote="evo" revision="master" />
     <project path="device/mediatek/sepolicy_vndr" name="device_mediatek_sepolicy_vndr" remote="evo-devices" revision="bka" />
+	<project path="hardware/dolby" name="hardware_dolby" remote="evo-devices" revision="bka" />
 	<project path="hardware/oplus" name="hardware_oplus" remote="evo-devices" revision="bka" />
     <project path="hardware/mediatek" name="hardware_mediatek" remote="evo-devices" revision="bka" />
 	<project path="packages/apps/ViPER4AndroidFX" name="packages_apps_ViPER4AndroidFX" remote="evo-devices" revision="bka" />

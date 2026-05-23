@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+<remote name="me"
+        fetch="https://github.com/EvilAnsh/" />
+
+<!-- salaa Trees -->	
+    <project path="device/realme/salaa" name="android_device_realme_salaa" remote="me" revision="lineage-23.2" />
+    <project path="vendor/realme/salaa" name="proprietary_vendor_realme_salaa" remote="me" revision="lineage-23.2" />
+    <project path="kernel/realme/salaa" name="android_kernel_realme_salaa" remote="me" revision="lineage-23.2" />
+
+<!-- Extras -->
+    <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="axion_devices" revision="lineage-23.2" />
+	<project path="hardware/dolby" name="hardware_dolby" remote="me" revision="sony-1.5" />
+    <project path="hardware/oplus" name="android_hardware_oplus" remote="axion_devices" revision="lineage-23.2" />
+    <project path="hardware/mediatek" name="android_hardware_mediatek" remote="me" revision="lineage-23.2" />
+</manifest>

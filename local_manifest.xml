@@ -11,7 +11,7 @@
 
 <!-- Extras -->
     <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="axion_devices" revision="lineage-23.2" />
-	<project path="hardware/dolby" name="hardware_dolby" remote="me" revision="sony-1.5" />
+	<project path="hardware/dolby" name="hardware_dolby" remote="me" revision="sony-1.3" />
     <project path="hardware/oplus" name="android_hardware_oplus" remote="axion_devices" revision="lineage-23.2" />
     <project path="hardware/mediatek" name="android_hardware_mediatek" remote="me" revision="lineage-23.2" />
 </manifest>
